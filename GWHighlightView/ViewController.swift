@@ -13,6 +13,8 @@ class ViewController: UIViewController {
 
     @IBOutlet var highlightView: GWHighlightView!
     @IBOutlet var button: UIButton!
+    @IBOutlet var label: UILabel!
+    @IBOutlet var iv: UIImageView!
 
     // MARK: - life cycle
 
@@ -21,6 +23,7 @@ class ViewController: UIViewController {
 
         highlightView.addTarget(self, action: #selector(highlightViewTapped(_:)), for: UIControl.Event.touchUpInside)
         button.addTarget(self, action: #selector(buttonTapped(_:)), for: UIControl.Event.touchUpInside)
+        highlightView.highlightableSubviews = [label, iv]
     }
 
     // MARK: - response methods

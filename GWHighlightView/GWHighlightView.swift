@@ -12,7 +12,7 @@ import UIKit
     // MARK: - properties
 
     /// 高亮背景色
-    @IBInspectable var highlightBackgroundColor: UIColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1) {
+    @IBInspectable var highlightBackgroundColor: UIColor = #colorLiteral(red: 0.8470588235, green: 0.8470588235, blue: 0.8470588235, alpha: 1) {
         didSet {
             updateUI()
         }
@@ -31,6 +31,8 @@ import UIKit
             updateUI()
         }
     }
+
+    var highlightableSubviews: [UIView] = []
 
     // MARK: - life cycle
 
@@ -73,10 +75,28 @@ import UIKit
     }
 
     override func endTracking(_ touch: UITouch?, with event: UIEvent?) {
+        super.endTracking(touch, with: event)
+
         isHighlighted = false
         sendActions(for: .touchUpInside)
     }
 
     override func cancelTracking(with event: UIEvent?) {
+        super.cancelTracking(with: event)
+    }
+
+    // MARK: -
+
+    override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
+        let result = super.hitTest(point, with: event)
+
+        for view in highlightableSubviews {
+            let p = convert(point, to: view)
+            if view.point(inside: p, with: event) {
+                return self
+            }
+        }
+
+        return result
     }
 }
