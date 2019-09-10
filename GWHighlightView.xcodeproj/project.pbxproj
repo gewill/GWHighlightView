@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DCBD17343B973F180060925 /* Pods_GWHighlightView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB90F435EEFA835B71D818B3 /* Pods_GWHighlightView.framework */; };
+		BE88E9BD23262DE100948933 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88E9BC23262DE100948933 /* AppDelegate.swift */; };
+		BE88E9BF23262DE100948933 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88E9BE23262DE100948933 /* ViewController.swift */; };
+		BE88E9C223262DE100948933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE88E9C023262DE100948933 /* Main.storyboard */; };
+		BE88E9C423262DE200948933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE88E9C323262DE200948933 /* Assets.xcassets */; };
+		BE88E9C723262DE200948933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE88E9C523262DE200948933 /* LaunchScreen.storyboard */; };
+		BE88E9CF23262E0400948933 /* GWHighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE88E9CE23262E0400948933 /* GWHighlightView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B810ADE4CF282017D485326 /* Pods-GWHighlightView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWHighlightView.debug.xcconfig"; path = "Target Support Files/Pods-GWHighlightView/Pods-GWHighlightView.debug.xcconfig"; sourceTree = "<group>"; };
+		BE88E9B923262DE100948933 /* GWHighlightView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWHighlightView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE88E9BC23262DE100948933 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE88E9BE23262DE100948933 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE88E9C123262DE100948933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE88E9C323262DE200948933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE88E9C623262DE200948933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE88E9C823262DE200948933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE88E9CE23262E0400948933 /* GWHighlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWHighlightView.swift; sourceTree = "<group>"; };
+		C3503FDDE649D5B6BFDE0531 /* Pods-GWHighlightView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWHighlightView.release.xcconfig"; path = "Target Support Files/Pods-GWHighlightView/Pods-GWHighlightView.release.xcconfig"; sourceTree = "<group>"; };
+		EB90F435EEFA835B71D818B3 /* Pods_GWHighlightView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GWHighlightView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE88E9B623262DE100948933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCBD17343B973F180060925 /* Pods_GWHighlightView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A296A05583D280BBB5BF212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB90F435EEFA835B71D818B3 /* Pods_GWHighlightView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70707E6BEFE3EFAC02C45222 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B810ADE4CF282017D485326 /* Pods-GWHighlightView.debug.xcconfig */,
+				C3503FDDE649D5B6BFDE0531 /* Pods-GWHighlightView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE88E9B023262DE100948933 = {
+			isa = PBXGroup;
+			children = (
+				BE88E9BB23262DE100948933 /* GWHighlightView */,
+				BE88E9BA23262DE100948933 /* Products */,
+				70707E6BEFE3EFAC02C45222 /* Pods */,
+				5A296A05583D280BBB5BF212 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE88E9BA23262DE100948933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE88E9B923262DE100948933 /* GWHighlightView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE88E9BB23262DE100948933 /* GWHighlightView */ = {
+			isa = PBXGroup;
+			children = (
+				BE88E9BC23262DE100948933 /* AppDelegate.swift */,
+				BE88E9BE23262DE100948933 /* ViewController.swift */,
+				BE88E9CE23262E0400948933 /* GWHighlightView.swift */,
+				BE88E9C023262DE100948933 /* Main.storyboard */,
+				BE88E9C323262DE200948933 /* Assets.xcassets */,
+				BE88E9C523262DE200948933 /* LaunchScreen.storyboard */,
+				BE88E9C823262DE200948933 /* Info.plist */,
+			);
+			path = GWHighlightView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE88E9B823262DE100948933 /* GWHighlightView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE88E9CB23262DE200948933 /* Build configuration list for PBXNativeTarget "GWHighlightView" */;
+			buildPhases = (
+				36231CB9BFC3097D9F6F5527 /* [CP] Check Pods Manifest.lock */,
+				BE88E9B523262DE100948933 /* Sources */,
+				BE88E9B623262DE100948933 /* Frameworks */,
+				BE88E9B723262DE100948933 /* Resources */,
+				2FD2221C22FE244DFD75C131 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GWHighlightView;
+			productName = GWHighlightView;
+			productReference = BE88E9B923262DE100948933 /* GWHighlightView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE88E9B123262DE100948933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Ge Will";
+				TargetAttributes = {
+					BE88E9B823262DE100948933 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = BE88E9B423262DE100948933 /* Build configuration list for PBXProject "GWHighlightView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE88E9B023262DE100948933;
+			productRefGroup = BE88E9BA23262DE100948933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE88E9B823262DE100948933 /* GWHighlightView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE88E9B723262DE100948933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE88E9C723262DE200948933 /* LaunchScreen.storyboard in Resources */,
+				BE88E9C423262DE200948933 /* Assets.xcassets in Resources */,
+				BE88E9C223262DE100948933 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FD2221C22FE244DFD75C131 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GWHighlightView/Pods-GWHighlightView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GWHighlightView/Pods-GWHighlightView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GWHighlightView/Pods-GWHighlightView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36231CB9BFC3097D9F6F5527 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GWHighlightView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE88E9B523262DE100948933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE88E9CF23262E0400948933 /* GWHighlightView.swift in Sources */,
+				BE88E9BF23262DE100948933 /* ViewController.swift in Sources */,
+				BE88E9BD23262DE100948933 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE88E9C023262DE100948933 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE88E9C123262DE100948933 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE88E9C523262DE200948933 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE88E9C623262DE200948933 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE88E9C923262DE200948933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE88E9CA23262DE200948933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE88E9CC23262DE200948933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B810ADE4CF282017D485326 /* Pods-GWHighlightView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLK76T8Y89;
+				INFOPLIST_FILE = GWHighlightView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.gewill.GWHighlightView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE88E9CD23262DE200948933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3503FDDE649D5B6BFDE0531 /* Pods-GWHighlightView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLK76T8Y89;
+				INFOPLIST_FILE = GWHighlightView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.gewill.GWHighlightView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE88E9B423262DE100948933 /* Build configuration list for PBXProject "GWHighlightView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE88E9C923262DE200948933 /* Debug */,
+				BE88E9CA23262DE200948933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE88E9CB23262DE200948933 /* Build configuration list for PBXNativeTarget "GWHighlightView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE88E9CC23262DE200948933 /* Debug */,
+				BE88E9CD23262DE200948933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE88E9B123262DE100948933 /* Project object */;
+}
