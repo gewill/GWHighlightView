@@ -35,4 +35,8 @@ class ViewController: UIViewController {
     @objc func buttonTapped(_ sender: GWHighlightView) {
         print("buttonTapped")
     }
+
+    @IBAction func imageClick(_ sender: UITapGestureRecognizer) {
+        print("imageClick")
+    }
 }

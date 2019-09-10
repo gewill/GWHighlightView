@@ -32,6 +32,7 @@ import UIKit
         }
     }
 
+    /// 点击子视图仍会触发高亮的子视图数组
     var highlightableSubviews: [UIView] = []
 
     // MARK: - life cycle

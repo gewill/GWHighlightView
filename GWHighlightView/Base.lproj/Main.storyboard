@@ -22,37 +22,41 @@
                                 <rect key="frame" x="10" y="248" width="394" height="400"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="Oz8-IT-gB8">
-                                        <rect key="frame" x="-293.5" y="21.5" width="981" height="357"/>
+                                        <rect key="frame" x="-301.5" y="21.5" width="997" height="357"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsu-En-PQZ">
-                                                <rect key="frame" x="467.5" y="0.0" width="46" height="30"/>
+                                                <rect key="frame" x="475.5" y="0.0" width="46" height="30"/>
                                                 <state key="normal" title="Button"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgy-4t-lHR">
-                                                <rect key="frame" x="469.5" y="51" width="42" height="20.5"/>
+                                                <rect key="frame" x="477.5" y="51" width="42" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="mpM-df-OWS">
-                                                <rect key="frame" x="430" y="92.5" width="121" height="29"/>
+                                                <rect key="frame" x="438" y="92.5" width="121" height="29"/>
                                                 <segments>
                                                     <segment title="First"/>
                                                     <segment title="Second"/>
                                                 </segments>
                                             </segmentedControl>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Sjq-aB-2U0">
-                                                <rect key="frame" x="-2" y="141.5" width="985" height="31"/>
+                                                <rect key="frame" x="-2" y="141.5" width="1001" height="31"/>
                                             </slider>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" translatesAutoresizingMaskIntoConstraints="NO" id="Mm4-P4-kJ6">
-                                                <rect key="frame" x="390.5" y="192.5" width="200" height="112.5"/>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" translatesAutoresizingMaskIntoConstraints="NO" id="Mm4-P4-kJ6">
+                                                <rect key="frame" x="398.5" y="192.5" width="200" height="112.5"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="BgP-Kh-eZP"/>
                                                     <constraint firstAttribute="width" secondItem="Mm4-P4-kJ6" secondAttribute="height" multiplier="16:9" id="P17-eA-YJP"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Wze-3c-Qxk" appends="YES" id="qSr-or-4se"/>
+                                                </connections>
                                             </imageView>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4dv-Gl-jMj">
-                                                <rect key="frame" x="466" y="326" width="51" height="31"/>
+                                                <rect key="frame" x="474" y="326" width="51" height="31"/>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -89,6 +93,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Wze-3c-Qxk">
+                    <connections>
+                        <action selector="imageClick:" destination="BYZ-38-t0r" id="KAK-dU-xoI"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>
